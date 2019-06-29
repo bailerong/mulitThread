@@ -1,5 +1,4 @@
 package ThreadImpl;
-
 class MyThread1 implements Runnable{
     private String title;
     public MyThread1(String title) {
