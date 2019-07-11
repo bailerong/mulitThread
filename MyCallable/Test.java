@@ -1,9 +1,7 @@
 package MyCallable;
-
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-
 class MyThread implements Callable{
     private int ticket=10;
     @Override
