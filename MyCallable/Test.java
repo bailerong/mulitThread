@@ -10,10 +10,8 @@ class MyThread implements Callable{
             System.out.println("剩余票数"+this.ticket--);
         }
         return "票完了";
-
     }
 }
-
 public class Test {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         FutureTask<String> task=new FutureTask<>(new MyThread());
@@ -22,3 +20,4 @@ public class Test {
         System.out.println(task.get());
     }
 }
+//为了返回值
