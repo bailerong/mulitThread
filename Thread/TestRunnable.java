@@ -1,7 +1,6 @@
 package Thread;
 class MyThread1 implements  Runnable{
     private  int ticket=10;
-
     @Override
     public void run() {
     while(this.ticket>0){
@@ -16,3 +15,4 @@ public class TestRunnable {
      new Thread(mt).start();
     }
 }
+//卖票是我们的非常经典的一个例子
