@@ -20,3 +20,5 @@ public class extendProiroty {
         thread.start();
     }
 }
+//我们的线程优先级，优点鸡肋
+
